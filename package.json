@@ -1,6 +1,6 @@
 {
     "name": "object-querybuilder",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "JavaScript Object Query Builder",
     "author": "AGUMON <ljlm0402@gmail.com>",
     "license": "MIT",
@@ -12,6 +12,9 @@
       "Builder"
     ],
     "main": "dist/index.js",
+    "scripts": {
+      "build": "tsc"
+    },
     "dependencies": {},
     "devDependencies": {
       "typescript": "^3.9.7"
@@ -25,4 +28,3 @@
     },
     "homepage": "https://github.com/ljlm0402/object-query#readme" 
 }
-  
