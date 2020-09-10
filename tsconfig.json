@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+      "target": "es6",
+      "lib":["es6", "dom", "es2017"],
+      "module": "commonjs",
+      "strict": true,
+      "declaration": true,
+      "outDir": "./dist"
+    }
+}
