@@ -51,14 +51,12 @@
 ---
 
 ## ✨ Features
-- 🎨 **Fluent API** - Chainable methods for readable queries### Usage
+- 🎨 **Fluent API** - Chainable methods for readable queries
 - 🎯 **SQL-like Syntax** - Familiar query syntax for filtering, sorting, and joining
-
 - 🔧 **Extensible** - Easy to add custom functionality
 - 🔒 **Type-Safe** - Full TypeScript support with generics
 - ⚡ **High Performance** - Optimized algorithms (O(n) joins with Map)
 - 📦 **Zero Dependencies** - Pure TypeScript, no external dependencies
-- 🎨 **Fluent API** - Chainable methods for readable queries
 - 🚀 **Modern Build** - Dual CJS/ESM support with tsup
 
 ---
