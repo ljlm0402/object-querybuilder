@@ -1,7 +1,7 @@
 {
   "name": "object-querybuilder",
-  "version": "1.0.3",
-  "description": "JavaScript Object Query Builder",
+  "version": "2.0.0",
+  "description": "JavaScript Object Query Builder with SQL-like syntax",
   "author": "AGUMON <ljlm0402@gmail.com>",
   "license": "MIT",
   "keywords": [
@@ -9,16 +9,43 @@
     "TypeScript",
     "Object",
     "Query",
-    "Builder"
+    "Builder",
+    "SQL",
+    "Filter",
+    "Sort"
   ],
-  "main": "dist/index.js",
-  "scripts": {
-    "build": "tsc"
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
   },
-  "dependencies": {},
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "typecheck": "tsc --noEmit",
+    "clean": "rimraf dist",
+    "prepublishOnly": "npm run clean && npm run build"
+  },
   "devDependencies": {
-    "ts-node": "^9.0.0",
-    "typescript": "^3.9.7"
+    "@types/jest": "^29.5.0",
+    "jest": "^29.5.0",
+    "rimraf": "^6.0.1",
+    "ts-jest": "^29.1.0",
+    "tsup": "^8.5.0",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
   },
   "repository": {
     "type": "git",
