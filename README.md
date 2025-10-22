@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <img src="https://github.com/ljlm0402/object-querybuilder/raw/images/logo.png" alt="Project Logo" width="800" />
+  <img src="https://github.com/ljlm0402/object-querybuilder/raw/images/logo.png" alt="Project Logo" width="600" />
   <br>
   <br>
   Object Query Builder
@@ -46,7 +46,9 @@
   </a>
 </p>
 
-<br />
+<p align="center">
+  <strong>· English <a href="./README.ko.md">· Korean</a></strong>
+</p>
 
 ---
 
